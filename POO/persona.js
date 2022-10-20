@@ -16,9 +16,9 @@ class Person{
         return "IMC = " + (this.pesoKg / Math.pow(this.alturaM,2));
     }
 
-    calcularEdad(){
-        let anio = new Date();
-        anio = anio.getFullYear();
+    calcularEdad(anio){
+        //let anio = new Date();
+        //anio = anio.getFullYear();
         return "Edad: " + (anio-this.anioNacimiento);
     }
 
